@@ -8,7 +8,9 @@ function contarStickers(){
   let totalStickers = Number(stickerA.value) + Number(stickerB.value) + Number(stickerC.value);
   if(totalStickers <= 10 ){
     mensaje.innerText = `Llevas ${totalStickers} stickers`;
+    mensaje.classList.remove('error');
   } else {
     mensaje.innerText = 'Llevas demasiados stickers';
+    mensaje.classList.add('error');
   }
 }
