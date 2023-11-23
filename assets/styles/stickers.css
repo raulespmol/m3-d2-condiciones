@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Kalam', cursive;
 }
 
 body {
@@ -12,6 +13,10 @@ body {
   place-content: center;
   height: 100vh;
   background-color: #eaeaea;
+  background-image: url('../img/avatar-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box, .box-body, .sticker-container, .box-footer {
@@ -22,7 +27,8 @@ body {
 .box {
   flex-direction: column;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #FAF6EA;
+  border-radius: 2rem;
 }
 
 .sticker-container {
@@ -35,6 +41,7 @@ body {
 }
 
 .sticker-container input {
+  font-family: 'Roboto Mono', monospace;
   width: 50px;
 }
 
@@ -44,8 +51,24 @@ body {
   text-align: center;
 }
 
+.box-footer p {
+  font-size: 1.5rem;
+}
+
+
 .box-footer button {
   width: 150px;
+  background-color: #808176;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #FFF;
+  font-size: 1.2rem;
+}
+
+.box-footer button:hover {
+  cursor: pointer;
+  background-color: #72736a;
 }
 
 .error {
