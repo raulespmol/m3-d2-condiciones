@@ -20,3 +20,11 @@ function verificarPassword() {
     mensaje.classList.add('error');
   }
 }
+
+function reset(){
+  A.value = '0';
+  B.value = '0';
+  C.value = '0';
+  mensaje.innerText = 'Ingresa un password';
+  mensaje.classList = 'mensaje';
+}
