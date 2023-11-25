@@ -8,3 +8,5 @@
   <li>Construir una página web que permita pedir hasta 10 stickers de los 3 tipos disponibles</li>
   <li>Construir una página con 3 select, al hacer click a la opción ingresar se debe verificar que el password sea 911 o 714</li>
 </ol>
+
+<a href="https://raulespmol.github.io/m3-d2-condiciones/img-border.html">Visitar</a>
