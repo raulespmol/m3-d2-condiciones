@@ -24,6 +24,8 @@ body {
   gap: 1rem;
 }
 
+
+
 .box {
   flex-direction: column;
   padding: 1rem;
@@ -38,6 +40,15 @@ body {
 
 .sticker-container img {
   width: 200px;
+}
+
+@media (max-width: 768px){
+  .sticker-container img{
+    width: 100%;
+  }
+  .box {
+    margin: 1rem;
+  }
 }
 
 .sticker-container input {
